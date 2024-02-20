@@ -1,0 +1,133 @@
+
+body {
+    margin:5% auto;
+    padding:0%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: url('https://images.unsplash.com/photo-1592639252926-01f6628980f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGUlMjBsb3R1cyUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+head {
+    margin-bottom: 5px;
+    text-align: center;
+    color: #50585c;
+    font-size: 7rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+  
+.form-container {
+    max-width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: fixed;
+    top:4%;
+    right:3%;
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1c3247;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.form-container input, 
+.form-container select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border:unset;
+    border-bottom: 2px solid #ccc;
+    border-radius: 30px;
+    
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #717274;
+    color: #fff;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header a {
+    width: 100%;
+    margin: 70px;
+    color: rgb(60, 73, 73);
+    font-size:large;
+    font-weight: bold;  
+    text-decoration: none;
+}
+
+a {
+    color: rgb(3, 3, 3);
+    font-size:large;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:underline;     
+}
+
+main h1 {
+    margin-top:80px;
+    padding:10px;
+    font-size:xx-large;
+}
+main h2 {
+    margin-top:40px;
+    padding:10px;
+    font-size:x-large;
+    text-align: center;
+
+}
+main h3 {
+    display: block;
+    margin-top:20px;
+    padding: 20px;
+    font-size:xx-large;
+    color: rgb(60, 73, 73);
+    text-align: center;
+}
+main p {
+    margin: 40px;
+    text-align:center;
+    font-size:x-large;
+    color: rgb(34, 37, 37);
+}
+
+main ul {
+    font-size:large;
+    color: rgb(34, 37, 37);
+    margin: 40px;
+    font-size: larger;
+}
+
+h1 {
+    color: #50585c;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+address {
+    margin-left: 40px;
+}
+span {
+    margin-left: 30px;
+}
+
+#registration-container {
+    margin: 70px auto;
+    position: static;
+}
+
